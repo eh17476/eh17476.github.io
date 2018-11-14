@@ -1,0 +1,17 @@
+header {
+  text-align: left;
+  color: black;
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 48px;
+    font-family: 'Playfair Display', serif;
+}
+ul {
+    padding: 10px;
+    font-size: 20px;
+  }
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
