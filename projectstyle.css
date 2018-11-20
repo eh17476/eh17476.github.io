@@ -1,16 +1,20 @@
 header {
-  text-align: right;
-  color: black;
+  text-align: left;
+  color: white;
   font-family: 'Playfair Display', serif;
-  background: src="frida_header.jpeg" alt="Frida Kahlo Image"
+  background: url("frida_header.jpeg");
+  background-size: center;
+  object-fit: cover;
 }
 h1 {
   font-size: 48px;
-    font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
+  color: white;
 }
 ul {
     padding: 10px;
     font-size: 20px;
+    text-align: right;
   }
 li {
   display: inline;
