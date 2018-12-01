@@ -1,22 +1,81 @@
+body {
+  margin: 0;
+  margin-top: 50px;
+  font-family: helvetica, sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  background-color: #A8A7A7;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div {
+  height: 200px;
+  background-size: cover;
+  position: relative;
+  margin: 40px 0 0 0;
+  border-radius: 12px;
+}
+
+ul {
+  background: #7C7C7C;
+  padding: 10px;
+  width: 800px;
+  text-align: center;
+  position: absolute;
+  opacity: 50%;
+}
+
 header {
   text-align: left;
-  color: white;
+  color: Black;
   font-family: 'Playfair Display', serif;
-  background: url("frida_header.jpeg");
   background-size: center;
   object-fit: cover;
+  padding-left: 10px;
+  display: inline;
 }
+
 h1 {
-  font-size: 48px;
+  font-size: 60px;
   font-family: 'Playfair Display', serif;
-  color: white;
+  color: black;
+  display: inline;
+  text-align: left;
 }
-ul {
-    padding: 10px;
-    font-size: 20px;
-    text-align: right;
-  }
+
+h2{
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  display: inline;
+  text-align: right;
+}
+
 li {
   display: inline;
   padding: 0px 10px 0px 10px;
+}
+
+section {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#photographs {
+  line-height: 0;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 0px;
+  -moz-column-count: 5;
+  -moz-column-gap: 0px;
+  column-count: 3;
+  column-gap: 0px;
+}
+
+#photos img {
+  width: 100% !important;
+  height: auto !important;
 }
